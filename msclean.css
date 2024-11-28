@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    background: linear-gradient(to right, #7b1fa2, #ab47bc);
+    color: white;
+    padding: 40px 0;
+}
+
+.brand h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.brand p {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.navbar {
+    background-color: #2a043cf9;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    color: white;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+}
+
+.navbar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #7b1fa2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto 20px;
+    display: block;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 20px;
+    color: #333;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+ul li strong {
+    color: #7b1fa2;
+}
+
+a {
+    color: #7b1fa2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    background-color: rgb(21, 82, 21);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+#footer p {
+    margin: 5px 0;
+}

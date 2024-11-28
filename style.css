@@ -1,0 +1,18 @@
+.form-row {
+    display: inline-block;
+    margin-right: 20px; /* Memberi jarak antara elemen */
+  }
+
+  label, select {
+    display: inline-block;
+    vertical-align: middle; /* Agar label dan select sejajar */
+  }
+
+  .container {
+    white-space: nowrap; /* Agar elemen tidak turun ke bawah */
+  }
+
+  .flex {
+    display: flex;
+    gap: 20px;
+  }

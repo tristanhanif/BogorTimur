@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- form -->
+    <form>
+        <fieldset>
+          <legend>Formulir</legend>
+  
+          <div>
+            <label><b>Nama:</b></label>
+            <input type="text" name="nama" placeholder="Your name" />
+            <br>
+            <br>
+            <label><b>Kelas:</b></label>
+            <input type="text" name="kelas" placeholder="Your class">
+            <br>
+          </div>
+          <br>
+          <div>
+            <p><b>Enter your email:</b></p>
+            <input type="email" name="email" placeholder="Your email">
+            <br>
+            <br>
+            <input type="password" name="password" placeholder="Your password">
+          </div>
+          <br>
+          <div>
+            <p>Jenis Kelamin:</p>
+            <input type="radio" name="jenis_kelamin" value="laki-laki" checked />
+            <label>Laki - Laki</label>
+            <input type="radio" name="jenis_kelamin" value="perempuan" />
+            <label>Perempuan</label>
+          </div>
+          <br>
+          <br>
+  
+          <div class="flex">
+
+            <div class="container">
+              <label for="jenjang_pendidikan"><b>Jenjang Pendidikan</b></label>
+              <br>
+              <br>
+              <select name="pendidikan" id="jenjang_pendidikan">
+                <option value="SD">SD</option>
+                <option value="SMP">SMP</option>
+                <option value="SMA">SMA</option>
+                <option value="SMK">SMK</option>
+                <option value="KULIAH">KULIAH</option>
+              </select>
+              
+        
+            </div>
+            <div>
+              <label for="Kota_Kabupaten_tempat_tinggal"><b>provinsi</b></label>
+              <br>
+              <br>
+              <select name="provinsi" id="Kota_Kabupaten_tempat_tinggal">
+                <option value="Aceh">Aceh</option>
+                <option value="Sumatera Utara">Sumatera Utara</option>
+                <option value="Sumatera Barat"> Sumatera Barat</option>
+                <option value="Riau">Riau</option>
+                <option value="Kepulauan Riau">Kepulauan Riau</option>
+                <option value="Jambi">Jambi</option>
+                <option value="Bengkulu">Bengkulu</option>
+                <option value="Lampung">Lampung</option>
+                <option value="Bangka Belitung">Bangka Belitung</option>
+                <option value="Lampung">Lampung</option>
+                <option value="Banten">Banten</option>
+                <option value="Banten">Banten</option>
+      <option value="DKI Jakarta">DKI Jakarta</option>
+      <option value="Jawa Barat">Jawa Barat</option>
+      <option value="Jawa Tengah">Jawa Tengah</option>
+      <option value="DI Yogyakarta">DI Yogyakarta</option>
+      <option value="Jawa Timur">Jawa Timur</option>
+      <option value="Kalimantan Barat">Kalimantan Barat</option>
+      <option value="Kalimantan Tengah">Kalimantan Tengah</option>
+      <option value="Kalimantan Selatan">Kalimantan Selatan</option>
+      <option value="Kalimantan Timur">Kalimantan Timur</option>
+      <option value="Kalimantan Utara">Kalimantan Utara</option>
+      <option value="Sulawesi Utara">Sulawesi Utara</option>
+      <option value="Sulawesi Tengah">Sulawesi Tengah</option>
+      <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+      <option value="Sulawesi Tenggara">Sulawesi Tenggara</option>
+      <option value="Gorontalo">Gorontalo</option>
+      <option value="Sulawesi Barat">Sulawesi Barat</option>
+        <option value="Bali">Bali</option>
+        <option value="Papua Barat">Papua Barat</option>
+      <option value="Papua">Papua</option>
+              </select>
+            </div>
+          </div>
+  
+          <div>
+            <p>Ceritakan pengalaman anda:</p>
+            <textarea rows="10" cols="60" name="pengalaman" placeholder="Tulis jawaban Anda di sini"></textarea>
+          </div>
+  
+          <button id="submit">kirim</button>
+        </fieldset>
+      </form>
+      <br>
+
+    <!-- Link Anchor -->
+    <a id="link1" href="https://www.google.com">Welcome to Google!</a>
+    <a id="link2" href="https://www.wikipedia.com">Welcome to YouTube!</a>
+    <br>
+
+    <!-- span -->
+    <p>Mobil <span style="color:red">merah </span> itu sangat cepat</p>
+    <br>
+
+    <!-- list -->
+    <ul>
+        <li>Kopi</li>
+        <li>
+          Teh
+          <ol type="I">
+            <li>Teh Hitam</li>
+            <li>Teh Hijau</li>
+          </ol>
+        </li>
+        <li>Susu</li>
+      </ol>
+      <br>
+
+      <!-- image -->
+       <img src="/images/Cuplikan layar 2024-09-23 093252.png" alt="foto badut" title="para badut" >
+
+    <!-- audio -->
+    <audio controls>
+        <source src="cat_meow.ogg" type="audio/ogg" />
+        <source src="cat_meow.mp3" type="audio/mp3" />
+        <source src="cat_meow.wav" type="audio/wav" />
+        Your browser does not support the audio element.
+      </audio>
+      <br>
+      
+      <!-- iframe -->
+      <iframe src="https://www.wikipedia.com" width="300" height="240" frameborder="0"></iframe>
+      <br>
+     
+      <!-- table -->
+      <table border="1">
+        <thead>
+           <tr>
+            <th>nama</th>
+            <th>nilai</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>sarah</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+      </table>
+      <br>
+      <script src="index.js"></script>
+</body>
+</html>

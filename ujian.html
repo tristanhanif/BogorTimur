@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengertian dan Perkembangan Laptop</title>
+    <style>
+        /* Mengatur style body */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 20;
+            padding: 20;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Mengatur container utama */
+        .container {
+            position: relative;
+            background-color: #ffffff;
+            padding: 40px;
+            max-width: 900px;
+            width: 100%;
+            box-shadow: 0 10px 30px rgba(2, 2, 2, 1.5);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        /* Mengatur gambar kiri atas */
+        .image-left-top {
+            position: absolute;
+            top: -25px;
+            left: -25px;
+            width: 200px;
+            height: auto;
+            opacity: 0.9;
+            transform: rotate(-10deg);
+            transition: transform 0.3s ease;
+        }
+
+        /* Mengatur gambar kanan bawah */
+        .image-right-bottom {
+            position: absolute;
+            bottom: -25px;
+            right: -25px;
+            width: 200px;
+            height: auto;
+            opacity: 0.9;
+            transform: rotate(10deg);
+            transition: transform 0.3s ease;
+        }
+
+        /* Efek hover pada gambar */
+        .image-left-top:hover, .image-right-bottom:hover {
+            transform: scale(1.1) rotate(0deg);
+            opacity: 1;
+        }
+
+        /* Mengatur judul */
+        .title {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #333333;
+            letter-spacing: 1px;
+        }
+
+        /* Mengatur teks konten */
+        .content {
+            font-size: 18px;
+            line-height: 1.8;
+            text-align: justify;
+            color: #555555;
+            padding: 20px;
+            background-color: #fafafa;
+            border-left: 5px solid #0077cc;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Tambahan efek hover pada container */
+        .container:hover {
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Mengatur style responsive */
+        @media (max-width: 768px) {
+            .image-left-top, .image-right-bottom {
+                width: 150px;
+            }
+
+            .content {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Gambar kiri atas -->
+        <img src="download.jpeg" class="image-left-top" alt="Laptop Pertama di Dunia">
+        
+        <!-- Judul -->
+        <div class="title">Pengertian dan Perkembangan Laptop</div>
+        
+        <!-- Konten teks -->
+        <div class="content">
+            <p><strong>Laptop</strong> adalah komputer portabel yang dapat digunakan di berbagai tempat. Laptop menggabungkan layar, keyboard, baterai, dan komponen lainnya dalam satu unit. Perkembangan laptop dimulai sejak 1980-an dengan bentuk yang besar dan berat, tetapi terus berkembang menjadi perangkat yang lebih ramping, cepat, dan praktis.</p>
+            <p>Inovasi dalam dunia laptop terus berlanjut, mulai dari peningkatan kinerja prosesor hingga desain ringan seperti ultrabook dan laptop 2-in-1. Laptop modern menjadi sangat penting dalam pekerjaan, pendidikan, dan hiburan sehari-hari.</p>
+        </div>
+        
+        <!-- Gambar kanan bawah -->
+        <img src="/images/067201500_1610971557-ZenBook_Pro_15_Full.webp" class="image-right-bottom" alt="Laptop Terbaru di Dunia">
+    </div>
+
+</body>
+</html>
